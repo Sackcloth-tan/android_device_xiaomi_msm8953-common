@@ -124,7 +124,9 @@ PRODUCT_COPY_FILES += \
 # Binder
 PRODUCT_PACKAGES += \
     libhwbinder \
-    libhidltransport
+    libhwbinder.vendor \
+    libhidltransport \
+    libhidltransport.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -199,7 +201,7 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.manager@1.0
+    android.hidl.manager@1.0 
 
 # HW crypto
 PRODUCT_PACKAGES += \
