@@ -446,3 +446,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# QCOM CAF Dependencies
+PRODUCT_PACKAGES += \
+		libqti_vndfwk_detect
